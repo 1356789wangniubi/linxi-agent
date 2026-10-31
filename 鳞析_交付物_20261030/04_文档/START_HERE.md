@@ -3,7 +3,7 @@
 ## 0. 进入目录
 
 ```powershell
-cd /d C:\Users\29144\Desktop\智能体
+cd /d C:/path/to/project
 ```
 
 > 所有命令都要在这个目录下执行；换目录会找不到 `fishflow`。
@@ -169,7 +169,7 @@ skill 会调用 `python -m fishflow.cli diagnose ...`，并原样引用 evidence
 ## 最短路径
 
 ```powershell
-cd /d C:\Users\29144\Desktop\智能体
+cd /d C:/path/to/project
 python -m fishflow.demo
 start outputs\guard_report.html
 ```

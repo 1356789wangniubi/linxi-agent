@@ -1,0 +1,21 @@
+# Credentials and runtime state are never publication inputs.
+secrets/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+.ssh/
+.sshhome/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+outputs/
+validation/selftest_log.jsonl
+# Original research data stays local. The publication script explicitly
+# allows only the already-distributed physical-model example index.
+data/index/
+data/provenance.jsonl
+*.tsv

@@ -10,7 +10,7 @@ python -m fishflow.chat_server
 
 浏览器会自动打开 `http://127.0.0.1:8765/`。
 
-### 用智谱 GLM-4-Flash
+### 用智谱 glm-5.3-flash
 
 双击 **`chat_zhipu.bat`**。
 
